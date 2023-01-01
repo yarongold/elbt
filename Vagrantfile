@@ -7,8 +7,8 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 443, host: 444, id: "nginx"
   config.vm.synced_folder "src", "/srv/src"
   config.vm.provision "shell", path: "provision.sh"
- # config.vm.provision "shell", inline: <<-SHELL
- #     cd /srv/src
- #     python3 app.py &
- #   SHELL
+  config.vm.provision "shell", inline: <<-SHELL
+     cd /srv/src
+     python3 app.py &
+   SHELL
 end
