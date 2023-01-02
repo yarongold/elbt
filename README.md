@@ -9,6 +9,9 @@ https://www.hebcal.com/home/195/jewish-calendar-rest-api
 https://docs.python.org/3.9/library/ssl.html#server-side-operation
 https://docs.python.org/3.9/library/socketserver.html#socketserver.request
 
+### Python Pandas Quarter:
+https://pandas.pydata.org/docs/reference/api/pandas.Period.quarter.html
+
 ### Vagrant centos box:
 https://app.vagrantup.com/vshn/boxes/centos7
 
