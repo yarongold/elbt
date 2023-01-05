@@ -40,7 +40,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
 
 
 try:
-    httpd = HTTPServer(('localhost', 8888), SimpleHTTPRequestHandler)
+    httpd = HTTPServer(('localhost', 8000), SimpleHTTPRequestHandler)
 
     #httpd.socket = ssl.wrap_socket(httpd.socket,
     #                               keyfile="key.pem",
