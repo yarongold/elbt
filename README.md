@@ -1,5 +1,9 @@
 # Home Assigment
 
+#### Prerequsites
+- Install Vagrant - https://developer.hashicorp.com/vagrant/downloads
+- Install VirtualBox - https://www.virtualbox.org/wiki/Downloads 
+
 #### Vagrant file based on CentOS 7
 - Vagrant VM based on vshn/centos7
 - Open port 80 for http
@@ -17,7 +21,6 @@
 - Copy nginx config file to setup reverse proxy with ssl
 - Start nginx setvice
 - Set nginx service automatic restart at machine boot
-
 
 #### Self Signed certificates 
 - Create self signed certificates for nginx ssl usage
